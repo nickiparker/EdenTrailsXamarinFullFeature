@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Eden Trails" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                                <rect key="frame" x="20" y="281" width="560" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="20" id="15"/>
+                            <constraint firstItem="3" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="261" id="16"/>
+                            <constraint firstItem="3" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="17"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="268" id="18"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Wikitude/Oceanic_Islands/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/Oceanic_Islands/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_2_MultipleTargets/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_2_MultipleTargets/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/01_ImageRecognition_2_MultipleTargets/assets/imageTwo.png" width="512" height="512"/>
+        <image name="Wikitude/01_ImageRecognition_2_MultipleTargets/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/imageTwo.png" width="512" height="512"/>
+        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/wwwButton.jpg" width="512" height="256"/>
+        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/imageTwo.png" width="512" height="512"/>
+        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/wwwButton.jpg" width="512" height="256"/>
+        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageSparkles.png" width="512" height="512"/>
+        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageTwo.png" width="512" height="512"/>
+        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/wwwButton.jpg" width="512" height="256"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/beard_01.png" width="400" height="335"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/beard_02.png" width="200" height="175"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/beard_03.png" width="388" height="119"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/christmas_hat.png" width="400" height="396"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/glasses.png" width="412" height="147"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/mirror_sunglasses.png" width="500" height="375"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/police_hat.png" width="400" height="292"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/target.jpg" width="33" height="50"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_2_DistanceToTarget/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_2_DistanceToTarget/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/02_AdvancedImageRecognition_3_ExtendedTracking/assets/target_iot.jpg" width="525" height="517"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/austria.jpg" width="28" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/banner.jpg" width="600" height="163"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/brazil.jpg" width="56" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/france.jpg" width="38" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/germany.jpg" width="68" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/italy.jpg" width="26" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/austria.jpg" width="28" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/banner.jpg" width="600" height="163"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/brazil.jpg" width="56" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/france.jpg" width="38" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/germany.jpg" width="68" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/italy.jpg" width="26" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/austria.jpg" width="28" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/bannerWithNameField.jpg" width="630" height="230"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/brazil.jpg" width="56" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/france.jpg" width="38" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/germany.jpg" width="68" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/italy.jpg" width="26" height="50"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/assets/orderNowButton.png" width="334" height="128"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/03_CloudRecognition_3_UsingMetainformationInTheResponse/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/assets/crosshairs_blue.png" width="1024" height="1024"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/assets/crosshairs_red.png" width="1024" height="1024"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/assets/buttons/start.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/assets/buttons/stop.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/04_InstantTracking_1_SimpleInstantTracking/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/assets/crosshairs_blue.png" width="1024" height="1024"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/assets/crosshairs_red.png" width="1024" height="1024"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/assets/buttons/start.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/assets/buttons/stop.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/assets/buttons/trash.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/04_InstantTracking_2_3DModels/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/crosshairs_blue.png" width="1024" height="1024"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/crosshairs_red.png" width="1024" height="1024"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/clock.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/couch.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/office_chair.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/start.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/stop.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/table.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/trainer.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/assets/buttons/trash.png" width="512" height="512"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/04_InstantTracking_3_GesturesAnd3DModels/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/05_3dModels_1_3dModelOnTarget/assets/car.png" width="41" height="51"/>
+        <image name="Wikitude/05_3dModels_2_AppearingAnimation/assets/car.png" width="41" height="51"/>
+        <image name="Wikitude/05_3dModels_3_Interactivity/assets/car.png" width="41" height="51"/>
+        <image name="Wikitude/05_3dModels_3_Interactivity/assets/rotateButton.png" width="128" height="128"/>
+        <image name="Wikitude/05_3dModels_4_SnapToScreen/assets/car.png" width="41" height="51"/>
+        <image name="Wikitude/05_3dModels_4_SnapToScreen/assets/rotateButton.png" width="128" height="128"/>
+        <image name="Wikitude/05_3dModels_4_SnapToScreen/assets/snapButton.png" width="128" height="128"/>
+        <image name="Wikitude/05_3dModels_5_AnimatedModelParts/assets/car.png" width="41" height="51"/>
+        <image name="Wikitude/05_3dModels_5_AnimatedModelParts/assets/rotateButton.png" width="128" height="128"/>
+        <image name="Wikitude/05_3dModels_6_3dModelAtGeoLocation/assets/indi.png" width="560" height="560"/>
+        <image name="Wikitude/06_PointOfInterest_1_PoiAtLocation/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/06_PointOfInterest_1_PoiAtLocation/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/06_PointOfInterest_1_PoiAtLocation/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_1_PoiAtLocation/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_1_PoiAtLocation/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_1_PoiAtLocation/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_2_PoiWithLabel/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/06_PointOfInterest_2_PoiWithLabel/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/06_PointOfInterest_2_PoiWithLabel/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_2_PoiWithLabel/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_2_PoiWithLabel/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_2_PoiWithLabel/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_3_MultiplePois/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/06_PointOfInterest_4_SelectingPois/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/07_ObtainPoiData_1_FromApplicationModel/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/07_ObtainPoiData_2_FromLocalResource/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_1_PresentingDetails/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/assets/radar_bg.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/assets/radar_north.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_2_AddingRadar/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/assets/radar_bg.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/assets/radar_north.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_3_LimitingRange/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/assets/radar_bg.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/assets/radar_north.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_4_ReloadingContent/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/assets/radar_bg.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/assets/radar_north.png" width="163" height="163"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/08_BrowsingPois_5_NativeDetailScreen/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/09_Video_1_SimpleVideo/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_1_SimpleVideo/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_2_PlaybackStates/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_2_PlaybackStates/assets/playButton.png" width="256" height="256"/>
+        <image name="Wikitude/09_Video_2_PlaybackStates/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_3_SnappingVideo/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_3_SnappingVideo/assets/playButton.png" width="256" height="256"/>
+        <image name="Wikitude/09_Video_3_SnappingVideo/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_4_Bonus-TransparentVideo/assets/bike.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_4_Bonus-TransparentVideo/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/09_Video_4_Bonus-TransparentVideo/assets/wwwButton.jpg" width="512" height="256"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/10_HardwareControl_1_FrontCamera/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/10_HardwareControl_2_CameraSwitching/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/10_HardwareControl_3_AdvancedFeatures/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/11_PluginsAPI_1_QR&amp;Barcode/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/11_PluginsAPI_1_QR&amp;Barcode/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/11_PluginsAPI_2_FaceDetection/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/11_PluginsAPI_2_FaceDetection/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/11_PluginsAPI_3_CustomCamera/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/11_PluginsAPI_3_CustomCamera/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/11_PluginsAPI_4_MarkerTracking/assets/helmet.png" width="512" height="512"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/ShopAdSmall.png" width="38" height="54"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_Deal.png" width="832" height="513"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_FindShops.png" width="435" height="176"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_GetADeal.png" width="435" height="176"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_Marker.png" width="148" height="236"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_OpenWebsite.png" width="435" height="176"/>
+        <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_color.png" width="357" height="515"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Earth-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Jupiter-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Mars-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Mercury-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Neptune-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Pluto-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Saturn-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Sun-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Uranus-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Venus-icon.png" width="128" height="128"/>
+        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/indi.png" width="560" height="560"/>
+        <image name="Wikitude/x_Demo_3_SolarSystem(2dTracking)/assets/backdrop.png" width="128" height="64"/>
+        <image name="Wikitude/x_Demo_3_SolarSystem(2dTracking)/assets/solarsystem.png" width="59" height="38"/>
+        <image name="monkey.png" width="23" height="29"/>
+        <image name="pin.png" width="32" height="32"/>
+        <image name="xamarin.png" width="1452" height="609"/>
+        <image name="edenprojectlogo.png" width="432" height="82"/>
+        <image name="Wikitude/West_Africa/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/West_Africa/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/South_East_Asia/assets/imageOne.png" width="446" height="1024"/>
+        <image name="Wikitude/South_East_Asia/assets/surfer.png" width="38" height="50"/>
+        <image name="Wikitude/South_East_Asia/assets/South_East_Asia_53_50.png" width="53" height="50"/>
+        <image name="Wikitude/South_East_Asia/assets/South_East_Asia.jpg" width="450" height="423"/>
+        <image name="Wikitude/South_East_Asia/assets/tree-frog-text.gif" width="690" height="400"/>
+        <image name="Wikitude/South_East_Asia/assets/Tropical_Islands_Seychelles_98_50.png" width="98" height="50"/>
+        <image name="Wikitude/South_East_Asia/assets/West_Africa_Marker_48_50.png" width="48" height="50"/>
+        <image name="Wikitude/Photo_Competition/assets/indi.png" width="130" height="130"/>
+        <image name="Wikitude/Photo_Competition/assets/marker_idle.png" width="256" height="128"/>
+        <image name="Wikitude/Photo_Competition/assets/marker_selected.png" width="256" height="128"/>
+        <image name="Wikitude/Photo_Competition/assets/radar_bg.png" width="163" height="163"/>
+        <image name="Wikitude/Photo_Competition/assets/radar_north.png" width="163" height="163"/>
+        <image name="Wikitude/Photo_Competition/jquery/images/ajax-loader.gif" width="46" height="46"/>
+        <image name="Wikitude/Photo_Competition/jquery/images/icons-18-black.png" width="864" height="18"/>
+        <image name="Wikitude/Photo_Competition/jquery/images/icons-18-white.png" width="864" height="18"/>
+        <image name="Wikitude/Photo_Competition/jquery/images/icons-36-black.png" width="1728" height="36"/>
+        <image name="Wikitude/Photo_Competition/jquery/images/icons-36-white.png" width="1728" height="36"/>
+        <image name="Wikitude/Oceanic_Islands/assets/bamboo_correct_answer.png" width="300" height="300"/>
+        <image name="Wikitude/Oceanic_Islands/assets/seychelles_Stilt_Palm_wrong_answer.png" width="300" height="300"/>
+        <image name="Wikitude/Oceanic_Islands/assets/generic-quiz-not-right.png" width="630" height="428"/>
+        <image name="Wikitude/Oceanic_Islands/assets/tropical-islands-quiz-question.png" width="630" height="728"/>
+        <image name="Wikitude/Oceanic_Islands/assets/tropical-islands-quiz-congratulations.png" width="630" height="428"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Palm_Oil_Marker_PNG_100_100.png" width="100" height="100"/>
+        <image name="Wikitude/Oceanic_Islands/assets/tree-frog-rythm-3.gif" width="711" height="1058"/>
+        <image name="Wikitude/Oceanic_Islands/assets/tree-frog-text.gif" width="690" height="400"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Tropical_Islands_Seychelles_98_50.png" width="98" height="50"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Tropical_Islands_Seychelles.jpg" width="2000" height="1022"/>
+        <image name="Wikitude/Oceanic_Islands/assets/tropical-island-text.gif" width="690" height="400"/>
+        <image name="Wikitude/Oceanic_Islands/assets/West Africa.jpg" width="800" height="837"/>
+        <image name="Wikitude/Oceanic_Islands/assets/west-africa-text.gif" width="690" height="400"/>
+        <image name="Wikitude/Oceanic_Islands/assets/WestAfricaMarkerPNG.png" width="100" height="100"/>
+        <image name="Wikitude/West_Africa/assets/bamboo_correct_answer.png" width="300" height="300"/>
+        <image name="Wikitude/West_Africa/assets/generic-quiz-not-right.png" width="630" height="428"/>
+        <image name="Wikitude/West_Africa/assets/Palm_Oil_Marker_PNG_100_100.png" width="100" height="100"/>
+        <image name="Wikitude/West_Africa/assets/seychelles_Stilt_Palm_wrong_answer.png" width="300" height="300"/>
+        <image name="Wikitude/West_Africa/assets/tree-frog-rythm-3.gif" width="711" height="1058"/>
+        <image name="Wikitude/West_Africa/assets/tree-frog-text.gif" width="690" height="400"/>
+        <image name="Wikitude/West_Africa/assets/Tropical_Islands_Seychelles.jpg" width="2000" height="1022"/>
+        <image name="Wikitude/West_Africa/assets/Tropical_Islands_Seychelles_98_50.png" width="98" height="50"/>
+        <image name="Wikitude/West_Africa/assets/tropical-islands-quiz-congratulations.png" width="630" height="428"/>
+        <image name="Wikitude/West_Africa/assets/tropical-islands-quiz-question.png" width="630" height="728"/>
+        <image name="Wikitude/West_Africa/assets/tropical-island-text.gif" width="690" height="400"/>
+        <image name="Wikitude/West_Africa/assets/West Africa.jpg" width="800" height="837"/>
+        <image name="Wikitude/West_Africa/assets/WestAfricaMarkerPNG.png" width="100" height="100"/>
+        <image name="Wikitude/West_Africa/assets/west-africa-text.gif" width="690" height="400"/>
+    </resources>
+</document>

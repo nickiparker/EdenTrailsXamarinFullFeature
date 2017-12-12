@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9517ECAF-F351-46B2-9C6B-22C3CDA5FD49}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.25b8cde7779eb4f969c6d20deb6d68e9dcace822" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="J8PTURNDYA" TeamId="355A7GLPM3" />
+  </MonoDevelop.Ide.ItemProperties.XamarinExample.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js">
+    <Files>
+      <File FileName=":Volumes:SSD_Memory:EdenTrailsXamarinFullFeature:iOS:Resources:Wikitude:West_Africa:js:west_africa_script.js" Line="221" Column="12" />
+      <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js" Line="161" Column="3" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js" Line="227" Column="30" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/assets/incorrect_answer_widget.html" Line="7" Column="197" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/assets/correct_answer_widget.html" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/Photo_Competition/css/poi-radar.css" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/Photo_Competition/js/marker.js" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/Photo_Competition/js/radar.js" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/Photo_Competition/index.html" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/assets/west_africa_text.html" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/SSD_Memory/EdenTrailsXamarinFullFeature/iOS/ExampleArchitectViewDelegate.cs" relfile="iOS/ExampleArchitectViewDelegate.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

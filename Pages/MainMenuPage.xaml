@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XamarinExample.MainMenuPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+        <Style x:Key="ButtonStyle1" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BorderColor" Value="Black" />
+                <Setter Property="BorderWidth" Value="3" />
+                <Setter Property="WidthRequest" Value="100" />
+                <Setter Property="BorderRadius" Value="20" />              
+        </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+	<ContentPage.Content>
+        <StackLayout>
+            
+            <Label x:Name="MenuLabel" Text="Eden Trails Menu" HorizontalTextAlignment="Center" BackgroundColor="Green" TextColor="White" HeightRequest="50" VerticalTextAlignment="Center" WidthRequest="20"/>
+            <Button x:Name="L1_WestAfrica" Text="Level 1 - West Africa" Style="{StaticResource ButtonStyle1}" Clicked="Africa_Handle_Clicked"/>
+            <Button x:Name="L2_SouthEastAsia" Text="Level 2 - South East Asia" Style="{StaticResource ButtonStyle1}" Clicked="Asia_Handle_Clicked"/>     
+            <Button x:Name="L3_OceanicIslands" Text="Level 3 - Tropical Islands"
+                Style="{StaticResource ButtonStyle1}" Clicked="Islands_Handle_Clicked"/>
+            
+              <Button x:Name="L4_PhotoComp" Text="Photo Competition" Style="{StaticResource ButtonStyle1}" Clicked="Photo_Handle_Clicked"/>
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:XamarinExample;assembly=XamarinExample"
+    x:Class="XamarinExample.SouthEastAsiaMapPage">
+    
+	<ContentPage.Content>
+
+         <StackLayout Orientation="Vertical"> 
+             <!--local:CustomMap x:Name="customMap" MapType="Hybrid" /-->
+              <WebView VerticalOptions="CenterAndExpand" Source="https://mapmycrush.com/EdenTrails/asia.png" HeightRequest="750" WidthRequest="200"/>
+         
+             <Button x:Name="StartTrailButton" Text="Start South East Asia Trail" WidthRequest="300" HeightRequest="100" BackgroundColor="Red" HorizontalOptions="Center" BorderWidth="10" BorderColor="Black" BorderRadius="25" TextColor="White" Clicked="Handle_Clicked"/>
+        </StackLayout>
+        
+	</ContentPage.Content>
+</ContentPage>
