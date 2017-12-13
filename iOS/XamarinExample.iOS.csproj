@@ -301,6 +301,7 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\washer_woman_video.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\washerWoman.gif" />
     <BundleResource Include="Resources\MERMAID_ENTERPRISES_LOGO.jpg" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\RhysDad.mov" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

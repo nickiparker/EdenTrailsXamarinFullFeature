@@ -293,13 +293,11 @@ var World = {
 
     worldLoaded: function worldLoadedFn() {
         var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
-        var cssDivPalmOil = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 98px'";
+        var cssDivWestAfrica = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 98px'";
         var cssDivChocolate = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 48px'";
         document.getElementById('loadingMessage').innerHTML =
-            "<div" + cssDivInstructions + ">Which product grown in West Africa starts its life as a kernel inside a fruit plant &#35;1 Palm Oil or &#35;2 Chocolate:</div>" +
-            "<div" + cssDivPalmOil + "><img src='assets/Palm_Oil_Marker_PNG_100_100.png'></img></div>" +
-            "<div" + cssDivChocolate + "><img src='assets/Chocolate_Marker2.png'></img></div>";
-         
+            "<div" + cssDivInstructions + ">Try and find this marker</div>" +
+            "<div" + cssDivWestAfrica + "><img src='assets/WestAfricaMarkerPNG.png'></img></div>";
         // Remove Scan target message after 60 sec.
         setTimeout(function() {
             var e = document.getElementById('loadingMessage');
