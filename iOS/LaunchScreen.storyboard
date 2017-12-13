@@ -56,9 +56,6 @@
     <resources>
         <image name="Wikitude/Oceanic_Islands/assets/imageOne.png" width="446" height="1024"/>
         <image name="Wikitude/Oceanic_Islands/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/imageTwo.png" width="512" height="512"/>
-        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_3_Interactivity/assets/wwwButton.jpg" width="512" height="256"/>
         <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/bike.png" width="38" height="50"/>
         <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/imageOne.png" width="446" height="1024"/>
         <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/imageTwo.png" width="512" height="512"/>

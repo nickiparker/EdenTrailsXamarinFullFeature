@@ -243,7 +243,7 @@ var World = {
 
 
         // West Africa Correct Answer
-        var page1 = new AR.ImageTrackable(this.tracker, "Palm_Oil_Marker_2", {
+        var page2 = new AR.ImageTrackable(this.tracker, "Palm_Oil_Marker_2", {
             drawables: {
             cam: [treeFrogWidget, correctAnswerWidget]
             },
@@ -268,10 +268,29 @@ var World = {
         });*/
 
 
+        // West Africa Intro ...... Rhys dad video....
+        var page1 = new AR.ImageTrackable(this.tracker, "WestAfricaMarker", {
+            drawables: {
+            cam: [rhysVideo]
+            },
+
+        onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
+        if (this.hasVideoStarted) {
+            rhysVideo.resume();
+        }
+        else {
+            this.hasVideoStarted = true;
+            rhysVideo.play(-1);
+        }                
+        },
+        onExitFieldOfVision: function onExitFieldOfVisionFn() {
+        rhysVideo.pause();
+        }
+        });
 
 
         // West Africa InCorrect Answer
-        var page2 = new AR.ImageTrackable(this.tracker, "Chocolate_Marker2", {
+        var page3 = new AR.ImageTrackable(this.tracker, "Chocolate_Marker2", {
             drawables: {
             cam: [videoFrog, incorrectAnswerWidget]
             },
