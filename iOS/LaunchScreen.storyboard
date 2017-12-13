@@ -56,12 +56,6 @@
     <resources>
         <image name="Wikitude/Oceanic_Islands/assets/imageOne.png" width="446" height="1024"/>
         <image name="Wikitude/Oceanic_Islands/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/bike.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/imageOne.png" width="446" height="1024"/>
-        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/imageTwo.png" width="512" height="512"/>
-        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_4_HtmlDrawable/assets/wwwButton.jpg" width="512" height="256"/>
-        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/bike.png" width="38" height="50"/>
         <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageOne.png" width="446" height="1024"/>
         <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageSparkles.png" width="512" height="512"/>
         <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageTwo.png" width="512" height="512"/>
@@ -376,5 +370,14 @@
         <image name="Wikitude/Solar_System_Demo/assets/Uranus-icon.png" width="128" height="128"/>
         <image name="Wikitude/Solar_System_Demo/assets/Venus-icon.png" width="128" height="128"/>
         <image name="Wikitude/Solar_System_Demo/assets/indi.png" width="560" height="560"/>
+        <image name="Wikitude/West_Africa/assets/cocoa-wrong-answer.png" width="300" height="300"/>
+        <image name="Wikitude/West_Africa/assets/palm-oil-correct-answer.png" width="300" height="300"/>
+        <image name="Wikitude/West_Africa/assets/west-africa-quiz-congratulations.png" width="630" height="429"/>
+        <image name="Wikitude/West_Africa/assets/west-africa-quiz-question.png" width="630" height="626"/>
+        <image name="Wikitude/South_East_Asia/assets/gecko-wrong-answer.png" width="300" height="300"/>
+        <image name="Wikitude/South_East_Asia/assets/generic-quiz-not-right.png" width="630" height="428"/>
+        <image name="Wikitude/South_East_Asia/assets/roul-roul-correct-answer.png" width="300" height="300"/>
+        <image name="Wikitude/South_East_Asia/assets/southeast-asia-correct-answer.png" width="630" height="429"/>
+        <image name="Wikitude/South_East_Asia/assets/southeast-asia-quiz-question.png" width="630" height="681"/>
     </resources>
 </document>

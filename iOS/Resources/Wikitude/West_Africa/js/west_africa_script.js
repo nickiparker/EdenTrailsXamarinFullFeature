@@ -96,7 +96,7 @@ var World = {
             }
         });
 
-        /* West Africa Widget
+        // West Africa Widget
         var westAfricaWidget = new AR.HtmlDrawable({
             uri: "assets/west_africa_text.html"
         }, 1, {
@@ -115,7 +115,7 @@ var World = {
                 AR.context.openInBrowser(uri);
             }
         });
-        */
+       
 
         /* Tropical Island Widget
         var tropicalIslandWidget = new AR.HtmlDrawable({
@@ -271,7 +271,7 @@ var World = {
         // West Africa Intro ...... Rhys dad video....
         var page1 = new AR.ImageTrackable(this.tracker, "WestAfricaMarker", {
             drawables: {
-            cam: [rhysVideo]
+            cam: [rhysVideo, westAfricaWidget]
             },
 
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
