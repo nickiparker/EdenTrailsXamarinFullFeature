@@ -14,7 +14,7 @@
          
 
             
-            <Button  x:Name="StartTrailButton" Font="Fira Sans" Text="Start West Africa Trail" WidthRequest="250" HeightRequest="50" BackgroundColor="RGB(0,168,184)"  HorizontalOptions="Center" BorderWidth="1" BorderColor="Black" BorderRadius="12" TextColor="White" Clicked="Handle_Clicked"  />
+            <Button  x:Name="StartTrailButton" Font="Fira Sans" Text="Start West Africa Trail" WidthRequest="200" HeightRequest="50" BackgroundColor="RGB(0,168,184)"  HorizontalOptions="Center" BorderWidth="1" BorderColor="Black" BorderRadius="12" TextColor="White" Clicked="Handle_Clicked"  />
 
            
         </StackLayout>
