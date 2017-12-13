@@ -136,6 +136,26 @@ var World = {
             }
         });
 
+        // WasherWoman Widget
+        var washerWomanWidget = new AR.HtmlDrawable({
+            uri: "assets/washer_woman_video.html"
+        }, 1, {
+            viewportWidth: 690,
+            viewportHeight: 400,
+            backgroundColor: "#00000000",
+            translate: {
+                x:0.36,
+                y: 0.5
+            },
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
+            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.BOTTOM,
+            clickThroughEnabled: true,
+            allowDocumentLocationChanges: false,
+            onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
+                AR.context.openInBrowser(uri);
+            }
+        });
+
         // Weather Widget
         var weatherWidget = new AR.HtmlDrawable({
             uri: "assets/weather.html"
@@ -222,9 +242,11 @@ var World = {
         // Correct Answer ( Bamboo )
         var pageOne = new AR.ImageTrackable(this.tracker, "bamboo_correct_answer", {
             drawables: {
-            cam: [videoFrog, tropicalIslandWidget, samsWidget, correctAnswerWidget]
+            cam: [tropicalIslandWidget, washerWomanWidget, correctAnswerWidget]
             },
+        });
 
+            /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             videoFrog.resume();
@@ -238,13 +260,14 @@ var World = {
         videoFrog.pause();
         }
         });
+        */
 
         // Wrong answer ( Stilt Palm )
         var page2 = new AR.ImageTrackable(this.tracker, "Stilt_Palm_wrong_answer", {
             drawables: {
             cam: [videoFrog, incorrectAnswerWidget]
             },
-
+       
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             videoFrog.resume();

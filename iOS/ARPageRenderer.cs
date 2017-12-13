@@ -15,6 +15,7 @@ namespace XamarinExample.iOS
 		WTNavigation navigation;
 		ExampleArchitectViewDelegate architectViewDelegate = new ExampleArchitectViewDelegate();
 
+       
 
 		protected override void OnElementChanged(VisualElementChangedEventArgs e)
 		{

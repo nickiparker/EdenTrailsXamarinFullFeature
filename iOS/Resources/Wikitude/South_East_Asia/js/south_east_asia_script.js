@@ -59,6 +59,7 @@ var World = {
             }
         }); */
 
+        /* Team decided not to show these educational videos from Eden Project ...
         // Create LilyPads ( South East Asia )Video drawable
         var video3 = new AR.VideoDrawable("assets/Lilypads.mp4", 0.5, {
                 translate: {
@@ -66,7 +67,7 @@ var World = {
                 y: 0.2
             }
         });
-       
+        */
 
         // Create Dancing Frog Video drawable
         var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_music.mp4", 0.5, {
@@ -201,7 +202,7 @@ var World = {
         */
 
         // SOUTH EAST ASIA popup...
-        var page3 = new AR.ImageTrackable(this.tracker, "South_East_Asia", {
+        var page1 = new AR.ImageTrackable(this.tracker, "South_East_Asia", {
             drawables: {
             cam: [videoFrog, treeFrogWidget]
             },

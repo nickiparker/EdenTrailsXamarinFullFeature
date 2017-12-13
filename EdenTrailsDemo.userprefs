@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.XamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.25b8cde7779eb4f969c6d20deb6d68e9dcace822" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="J8PTURNDYA" TeamId="355A7GLPM3" />
   </MonoDevelop.Ide.ItemProperties.XamarinExample.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="obj/Debug/XamarinExample.Pages.MainMenuPage.xaml.g.cs">
     <Files>
       <File FileName=":Volumes:SSD_Memory:EdenTrailsXamarinFullFeature:iOS:Resources:Wikitude:West_Africa:js:west_africa_script.js" Line="221" Column="12" />
-      <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js" Line="161" Column="3" />
-      <File FileName="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js" Line="227" Column="30" />
+      <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js" Line="264" Column="9" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js" Line="248" Column="33" />
       <File FileName="iOS/Resources/Wikitude/West_Africa/assets/incorrect_answer_widget.html" Line="7" Column="197" />
       <File FileName="iOS/Resources/Wikitude/West_Africa/assets/correct_answer_widget.html" Line="1" Column="1" />
       <File FileName="iOS/Resources/Wikitude/Photo_Competition/css/poi-radar.css" Line="1" Column="1" />
@@ -14,12 +14,22 @@
       <File FileName="iOS/Resources/Wikitude/Photo_Competition/js/radar.js" Line="1" Column="1" />
       <File FileName="iOS/Resources/Wikitude/Photo_Competition/index.html" Line="1" Column="1" />
       <File FileName="iOS/Resources/Wikitude/West_Africa/assets/west_africa_text.html" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/assets/incorrect_answer_widget.html" Line="7" Column="193" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/assets/Sams_Frog_Widget.html" Line="7" Column="209" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/assets/tree_frog_text.html" Line="7" Column="189" />
+      <File FileName="Pages/MainMenuPage.xaml.cs" Line="88" Column="59" />
+      <File FileName="Pages/MainMenuPage.xaml" Line="41" Column="125" />
+      <File FileName="iOS/LaunchScreen.storyboard" />
+      <File FileName="iOS/ARPageRenderer.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Pages/ARPage.cs" Line="1" Column="1" />
+      <File FileName="obj/Debug/XamarinExample.Pages.MainMenuPage.xaml.g.cs" Line="37" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Volumes/SSD_Memory/EdenTrailsXamarinFullFeature/iOS/ExampleArchitectViewDelegate.cs" relfile="iOS/ExampleArchitectViewDelegate.cs" line="14" column="1" />
+      <Breakpoint file="/Volumes/SSD_Memory/EdenTrailsXamarinFullFeature/iOS/ExampleArchitectViewDelegate.cs" relfile="iOS/ExampleArchitectViewDelegate.cs" line="15" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -23,6 +23,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="224" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="MERMAID_ENTERPRISES_LOGO.jpg">
+                                <rect key="frame" x="101" y="401" width="257" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="225" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="©Mermaid Enterprises Limited">
+                                <rect key="frame" x="84" y="626" width="274" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -32,6 +43,10 @@
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="268" id="18"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="logo" destination="224" id="name-outlet-224"/>
+                        <outlet property="logo_text" destination="225" id="name-outlet-225"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -303,17 +318,6 @@
         <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_Marker.png" width="148" height="236"/>
         <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_OpenWebsite.png" width="435" height="176"/>
         <image name="Wikitude/x_Demo_1_2dTrackingAndGeo/assets/YourShop_color.png" width="357" height="515"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Earth-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Jupiter-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Mars-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Mercury-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Neptune-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Pluto-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Saturn-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Sun-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Uranus-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/Venus-icon.png" width="128" height="128"/>
-        <image name="Wikitude/x_Demo_2_SolarSystem(Geo)/assets/indi.png" width="560" height="560"/>
         <image name="Wikitude/x_Demo_3_SolarSystem(2dTracking)/assets/backdrop.png" width="128" height="64"/>
         <image name="Wikitude/x_Demo_3_SolarSystem(2dTracking)/assets/solarsystem.png" width="59" height="38"/>
         <image name="monkey.png" width="23" height="29"/>
@@ -357,7 +361,6 @@
         <image name="Wikitude/West_Africa/assets/generic-quiz-not-right.png" width="630" height="428"/>
         <image name="Wikitude/West_Africa/assets/Palm_Oil_Marker_PNG_100_100.png" width="100" height="100"/>
         <image name="Wikitude/West_Africa/assets/seychelles_Stilt_Palm_wrong_answer.png" width="300" height="300"/>
-        <image name="Wikitude/West_Africa/assets/tree-frog-rythm-3.gif" width="711" height="1058"/>
         <image name="Wikitude/West_Africa/assets/tree-frog-text.gif" width="690" height="400"/>
         <image name="Wikitude/West_Africa/assets/Tropical_Islands_Seychelles.jpg" width="2000" height="1022"/>
         <image name="Wikitude/West_Africa/assets/Tropical_Islands_Seychelles_98_50.png" width="98" height="50"/>
@@ -367,5 +370,20 @@
         <image name="Wikitude/West_Africa/assets/West Africa.jpg" width="800" height="837"/>
         <image name="Wikitude/West_Africa/assets/WestAfricaMarkerPNG.png" width="100" height="100"/>
         <image name="Wikitude/West_Africa/assets/west-africa-text.gif" width="690" height="400"/>
+        <image name="Wikitude/West_Africa/assets/tree-frog-rhythm-3.gif" width="711" height="1058"/>
+        <image name="Wikitude/West_Africa/assets/Chocolate_Marker2.png" width="100" height="100"/>
+        <image name="Wikitude/Oceanic_Islands/assets/washerWoman.gif" width="892" height="575"/>
+        <image name="MERMAID_ENTERPRISES_LOGO.jpg" width="909" height="810"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Earth-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Jupiter-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Mars-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Mercury-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Neptune-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Pluto-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Saturn-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Sun-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Uranus-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/Venus-icon.png" width="128" height="128"/>
+        <image name="Wikitude/Solar_System_Demo/assets/indi.png" width="560" height="560"/>
     </resources>
 </document>

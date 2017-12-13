@@ -245,9 +245,10 @@ var World = {
         // West Africa Correct Answer
         var page1 = new AR.ImageTrackable(this.tracker, "Palm_Oil_Marker_2", {
             drawables: {
-            cam: [videoFrog, correctAnswerWidget]
+            cam: [treeFrogWidget, correctAnswerWidget]
             },
-
+        });
+            /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             videoFrog.resume();
@@ -260,7 +261,11 @@ var World = {
         onExitFieldOfVision: function onExitFieldOfVisionFn() {
         videoFrog.pause();
         }
-        });
+
+        //AR.platform.sendJSONObject( { action: 'africa_completed' });
+
+        //document.location = "architectsdk://button?action=west_africa_ok";
+        });*/
 
 
 

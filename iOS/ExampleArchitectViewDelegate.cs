@@ -6,13 +6,16 @@ using UIKit;
 namespace XamarinExample.iOS
 {
 	public class ExampleArchitectViewDelegate : WTArchitectViewDelegate
-	{
+    {
+
 		public override void InvokedURL(WTArchitectView architectView, NSUrl url)
 		{
             UIKit.UIImage test = architectView.Capture();
 
 			Console.WriteLine("architect view invoked url: " + url);
 
+            // we need to fire this back to the main page so that the main page now enables the rest of the quiz pages ...
+            MainMenuPage.SetApplicationCurrentProperty("WestAfrica", "true");
 
             // SEND EMAIL WITH PHOTO or TWEET PHOTO HERE....
 
