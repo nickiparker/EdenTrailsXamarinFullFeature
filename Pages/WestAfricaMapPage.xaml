@@ -7,10 +7,16 @@
     <ContentPage.Content>
        
        <StackLayout Orientation="Vertical"> 
+
+
              <!--local:CustomMap x:Name="customMap" MapType="Hybrid" /-->
-              <WebView VerticalOptions="CenterAndExpand" Source="https://mapmycrush.com/EdenTrails/africa.png" HeightRequest="750" WidthRequest="200"/>
+            <WebView VerticalOptions="CenterAndExpand" Source="https://mapmycrush.com/EdenTrails/africa.png" HeightRequest="750" WidthRequest="200" Grid.Row="1" Grid.Column="1" />
          
-             <Button x:Name="StartTrailButton" Text="Start West Africa Trail" WidthRequest="300" HeightRequest="100" BackgroundColor="Red" HorizontalOptions="Center" BorderWidth="10" BorderColor="Black" BorderRadius="25" TextColor="White" Clicked="Handle_Clicked"/>
+
+            
+            <Button  x:Name="StartTrailButton" Font="Fira Sans" Text="Start West Africa Trail" WidthRequest="250" HeightRequest="50" BackgroundColor="RGB(0,168,184)"  HorizontalOptions="Center" BorderWidth="1" BorderColor="Black" BorderRadius="12" TextColor="White" Clicked="Handle_Clicked"  />
+
+           
         </StackLayout>
         
     </ContentPage.Content>
