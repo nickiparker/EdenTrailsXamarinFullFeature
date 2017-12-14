@@ -241,7 +241,6 @@
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Hk13f4M1z.wtc" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Dancing_Frog_music.mp4" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Tropical_Islands_Seychelles_98_50.png" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\West_Africa_Marker_48_50.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\bamboo_correct_answer.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\seychelles_Stilt_Palm_wrong_answer.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\generic-quiz-not-right.png" />
@@ -266,7 +265,6 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\WestAfricaMarkerPNG.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\correct_answer_widget.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\incorrect_answer_widget.html" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\EdenTrailsMarker.wtc" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Dancing_Frog_Jeepers_Creepers.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\bamboo_correct_answer.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Bananas.mp4" />
@@ -289,9 +287,7 @@
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\tropical-islands-quiz-question.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\tropical-island-text.gif" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\weather.html" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\West Africa.jpg" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\west_africa_text.html" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\WestAfricaMarkerPNG.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\west-africa-text.gif" />
     <BundleResource Include="Resources\Wikitude\West_Africa\js\west_africa_script.js" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Chocolate_Marker2.png" />
@@ -309,11 +305,15 @@
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\southeast-asia-quiz-question.png" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\RhysMarker_ASIA.jpg" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Rhys_Marker_Islands.jpg" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Marker_Africa.jpg" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\West_Africa_Video1.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\EdenTrailsMarkers.wtc" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Rhys_Asia_Marker_200_200.jpg" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Rhys_Marker_Islands_200_200.jpg" />
+    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\EdenTrailsMarkers.wtc" />
+    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\EdenTrailsMarkers.wtc" />
+    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Rhys_Asia_Marker_200_200.png" />
+    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Rhys_Marker_Islands_200_200.png" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Marker_Africa_200_200.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

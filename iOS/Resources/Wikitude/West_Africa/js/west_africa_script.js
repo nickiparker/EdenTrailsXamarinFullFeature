@@ -323,7 +323,7 @@ var World = {
         var cssDivChocolate = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 48px'";
         document.getElementById('loadingMessage').innerHTML =
             "<div" + cssDivInstructions + ">Try and find this marker</div>" +
-            "<div" + cssDivWestAfrica + "><img src='assets/WestAfricaMarkerPNG.png'></img></div>";
+            "<div" + cssDivWestAfrica + "><img src='assets/Rhys_Marker_Africa_200_200.png'></img></div>";
         // Remove Scan target message after 60 sec.
         setTimeout(function() {
             var e = document.getElementById('loadingMessage');
