@@ -236,8 +236,6 @@
     <BundleResource Include="Resources\Wikitude\South_East_Asia\css\default.css" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\index.html" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\js\south_east_asia_script.js" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\South_East_Asia_53_50.png" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\South_East_Asia.jpg" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\tree_frog_text.html" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\tree-frog-text.gif" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Hk13f4M1z.wtc" />
@@ -314,6 +312,7 @@
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Marker_Africa.jpg" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\West_Africa_Video1.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\EdenTrailsMarkers.wtc" />
+    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Rhys_Asia_Marker_200_200.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

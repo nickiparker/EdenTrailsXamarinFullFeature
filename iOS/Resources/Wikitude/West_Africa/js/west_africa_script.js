@@ -13,7 +13,7 @@ var World = {
             Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
         */
 
-        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker.wtc", {
+        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarkers.wtc", {
             onLoaded: this.worldLoaded
         });
 
@@ -275,7 +275,7 @@ var World = {
 
 
         // West Africa Intro ...... Rhys grandfather video....
-        var page1 = new AR.ImageTrackable(this.tracker, "WestAfricaMarker", {
+        var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Africa_Marker", {
             drawables: {
             cam: [rhysVideo, westAfricaWidget]
             },

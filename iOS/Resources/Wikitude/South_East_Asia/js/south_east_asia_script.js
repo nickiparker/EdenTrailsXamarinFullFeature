@@ -17,7 +17,7 @@ var World = {
 		//	onLoaded: this.worldLoaded
 		//});
 
-        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker.wtc", {
+        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarkers.wtc", {
             onLoaded: this.worldLoaded
         });
 
@@ -201,8 +201,8 @@ var World = {
         });
         */
 
-        // SOUTH EAST ASIA popup...
-        var page1 = new AR.ImageTrackable(this.tracker, "South_East_Asia", {
+        // RHYS SOUTH EAST ASIA PAINTING MARKER
+        var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Asia_Marker", {
             drawables: {
             cam: [videoFrog, treeFrogWidget]
             },
@@ -223,20 +223,16 @@ var World = {
 	},
 
 	worldLoaded: function worldLoadedFn() {
-		var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
-        var cssDivJadeVine = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 98px'";
-        var cssDivBananas = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 48px'";
-        var cssDivLilypads = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
+		var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";       
+        var cssAsiaMarker = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
         document.getElementById('loadingMessage').innerHTML =
-            "<div" + cssDivInstructions + ">Scan Target &#35;1 (Marker 1) or &#35;2 (Marker 2) or &#35;3 (Marker 3):</div>" +
-            "<div" + cssDivJadeVine + "><img src='assets/Tropical_Islands_Seychelles_98_50.png'></img></div>" +
-            "<div" + cssDivBananas + "><img src='assets/West_Africa_Marker_48_50.png'></img></div>" +
-            "<div" + cssDivLilypads + "><img src='assets/South_East_Asia_53_50.png'></img></div>";
-		// Remove Scan target message after 20 sec.
+            "<div" + cssDivInstructions + ">Look for this marker:</div>" +
+            "<div" + cssDivAsiaMarker + "><img src='assets/Rhys_Asia_Marker_200_200.png'></img></div>";
+		// Remove Scan target message after 60 sec.
 		setTimeout(function() {
 			var e = document.getElementById('loadingMessage');
 			e.parentElement.removeChild(e);
-		}, 20000);
+		}, 60000);
 	}
 };
 
