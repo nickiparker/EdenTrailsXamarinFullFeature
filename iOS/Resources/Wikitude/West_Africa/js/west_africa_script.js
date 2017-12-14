@@ -64,17 +64,17 @@ var World = {
         });
         */
 
-        // Create Dancing Frog Video drawable
+        /* Create Dancing Frog Video drawable
         var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_Jeepers_Creepers.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
             }
         });
+        */
 
-
-        // Show video of Rhys's grandfather....
-        The team have requested that I show a video of Rhys's grandfather as an AR asset instead of the Eden Project videos...
+        // Show video of Rhys grandfather....
+        // The team have requested that I show a video of Rhys's grandfather as an AR asset instead of the Eden Project videos...
         var rhysVideo = new AR.VideoDrawable("assets/West_Africa_Video1.mp4", 0.5, {
                 translate: {
                 x: 0.2,
@@ -206,7 +206,7 @@ var World = {
         });
         */
 
-        // Correct Answer Widget
+        /* Correct Answer Widget
         var correctAnswerWidget = new AR.HtmlDrawable({
             uri: "assets/correct_answer_widget.html"
                 }, 0.25, {
@@ -245,15 +245,16 @@ var World = {
             AR.context.openInBrowser(uri);
         }
         });
+        */
 
 
-
-        // West Africa Correct Answer
+        /* West Africa Correct Answer
         var page2 = new AR.ImageTrackable(this.tracker, "Palm_Oil_Marker_2", {
             drawables: {
             cam: [treeFrogWidget, correctAnswerWidget]
             },
-        });
+        });*/
+
             /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {

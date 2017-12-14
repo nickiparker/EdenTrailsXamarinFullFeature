@@ -226,7 +226,7 @@ var World = {
 
 	worldLoaded: function worldLoadedFn() {
 		var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";       
-        var cssAsiaMarker = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
+        var cssDivAsiaMarker = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
         document.getElementById('loadingMessage').innerHTML =
             "<div" + cssDivInstructions + ">Look for this marker:</div>" +
             "<div" + cssDivAsiaMarker + "><img src='assets/Rhys_Asia_Marker_200_200.png'></img></div>";
