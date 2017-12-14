@@ -56,40 +56,6 @@
     <resources>
         <image name="Wikitude/Oceanic_Islands/assets/imageOne.png" width="446" height="1024"/>
         <image name="Wikitude/Oceanic_Islands/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageOne.png" width="446" height="1024"/>
-        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageSparkles.png" width="512" height="512"/>
-        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/imageTwo.png" width="512" height="512"/>
-        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/01_ImageRecognition_5_Bonus-Sparkles/assets/wwwButton.jpg" width="512" height="256"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/beard_01.png" width="400" height="335"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/beard_02.png" width="200" height="175"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/beard_03.png" width="388" height="119"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/christmas_hat.png" width="400" height="396"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/glasses.png" width="412" height="147"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/mirror_sunglasses.png" width="500" height="375"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/police_hat.png" width="400" height="292"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/assets/target.jpg" width="33" height="50"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/ajax-loader.gif" width="46" height="46"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-18-black.png" width="864" height="18"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-18-white.png" width="864" height="18"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-36-black.png" width="1728" height="36"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_1_Gestures/jquery/images/icons-36-white.png" width="1728" height="36"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_2_DistanceToTarget/assets/imageOne.png" width="446" height="1024"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_2_DistanceToTarget/assets/surfer.png" width="38" height="50"/>
-        <image name="Wikitude/02_AdvancedImageRecognition_3_ExtendedTracking/assets/target_iot.jpg" width="525" height="517"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/austria.jpg" width="28" height="50"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/banner.jpg" width="600" height="163"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/brazil.jpg" width="56" height="50"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/france.jpg" width="38" height="50"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/germany.jpg" width="68" height="50"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/assets/italy.jpg" width="26" height="50"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/ajax-loader.gif" width="46" height="46"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-18-black.png" width="864" height="18"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-18-white.png" width="864" height="18"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-36-black.png" width="1728" height="36"/>
-        <image name="Wikitude/03_CloudRecognition_1_SingleImageRecognition/jquery/images/icons-36-white.png" width="1728" height="36"/>
-        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/austria.jpg" width="28" height="50"/>
-        <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/banner.jpg" width="600" height="163"/>
         <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/brazil.jpg" width="56" height="50"/>
         <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/france.jpg" width="38" height="50"/>
         <image name="Wikitude/03_CloudRecognition_2_ContinuousImageRecognition/assets/germany.jpg" width="68" height="50"/>
@@ -379,5 +345,14 @@
         <image name="Wikitude/South_East_Asia/assets/roul-roul-correct-answer.png" width="300" height="300"/>
         <image name="Wikitude/South_East_Asia/assets/southeast-asia-correct-answer.png" width="630" height="429"/>
         <image name="Wikitude/South_East_Asia/assets/southeast-asia-quiz-question.png" width="630" height="681"/>
+        <image name="Wikitude/South_East_Asia/assets/RhysMarker_ASIA.jpg" width="1000" height="959"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Islands 2.jpg" width="1000" height="970"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Rhys_Marker_Islands.jpg" width="1000" height="970"/>
+        <image name="Wikitude/West_Africa/assets/WEST_AFRICA_NOTEXT.jpg" width="1000" height="897"/>
+        <image name="Wikitude/West_Africa/assets/Rhys_Marker_Africa.jpg" width="1000" height="897"/>
+        <image name="Wikitude/South_East_Asia/assets/RhysMarker_ASIA (copy).jpg" width="1000" height="959"/>
+        <image name="Wikitude/South_East_Asia/assets/Rhys_Asia_Marker_200_200.jpg" width="200" height="200"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Rhys_Marker_Islands (copy).jpg" width="1000" height="970"/>
+        <image name="Wikitude/Oceanic_Islands/assets/Rhys_Marker_Islands_200_200.jpg" width="200" height="200"/>
     </resources>
 </document>
