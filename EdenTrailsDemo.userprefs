@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{9517ECAF-F351-46B2-9C6B-22C3CDA5FD49}|Default">
-  <MonoDevelop.Ide.ItemProperties.XamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.25b8cde7779eb4f969c6d20deb6d68e9dcace822" automaticSigning="False">
+  <MonoDevelop.Ide.ItemProperties.XamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="J8PTURNDYA" TeamId="355A7GLPM3" />
   </MonoDevelop.Ide.ItemProperties.XamarinExample.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/MainMenuPage.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName=":Volumes:SSD_Memory:EdenTrailsXamarinFullFeature:iOS:Resources:Wikitude:West_Africa:js:west_africa_script.js" Line="221" Column="12" />
       <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js" Line="264" Column="9" />
@@ -18,14 +18,14 @@
       <File FileName="iOS/Resources/Wikitude/West_Africa/assets/Sams_Frog_Widget.html" Line="7" Column="209" />
       <File FileName="iOS/Resources/Wikitude/West_Africa/assets/tree_frog_text.html" Line="7" Column="189" />
       <File FileName="Pages/MainMenuPage.xaml.cs" Line="86" Column="32" />
-      <File FileName="Pages/MainMenuPage.xaml" Line="40" Column="186" />
+      <File FileName="Pages/MainMenuPage.xaml" Line="55" Column="1" />
       <File FileName="iOS/LaunchScreen.storyboard" />
       <File FileName="iOS/ARPageRenderer.cs" Line="1" Column="1" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="Pages/ARPage.cs" Line="1" Column="1" />
       <File FileName="obj/Debug/XamarinExample.Pages.MainMenuPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="iOS/Resources/Wikitude/South_East_Asia/js/south_east_asia_script.js" Line="1" Column="1" />
-      <File FileName="Pages/WestAfricaMapPage.xaml" Line="19" Column="12" />
+      <File FileName="Pages/WestAfricaMapPage.xaml" Line="24" Column="1" />
       <File FileName="Pages/OceanicIslandsMapPage.xaml" Line="12" Column="15" />
       <File FileName="Pages/SouthEastAsiaMapPage.xaml" Line="18" Column="1" />
     </Files>
