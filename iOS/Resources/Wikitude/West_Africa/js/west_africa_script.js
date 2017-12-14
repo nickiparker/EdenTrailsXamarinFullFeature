@@ -274,7 +274,7 @@ var World = {
         });*/
 
 
-        // West Africa Intro ...... Rhys grandfather video....
+        // West Africa Intro ...... show Rhys grandfather video.... and west africa widget ....
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Africa_Marker", {
             drawables: {
             cam: [rhysVideo, westAfricaWidget]

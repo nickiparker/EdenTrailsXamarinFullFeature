@@ -237,7 +237,7 @@ var World = {
         });
 
 
-        // INITIAL MARKER SHOWN WHEN ENTERING SITE.
+        // INITIAL MARKER SHOWN WHEN ENTERING SITE. show washer woman and tropical islands widget
         var pageOne = new AR.ImageTrackable(this.tracker, "Rhys_Asia_Marker", {
             drawables: {
             cam: [tropicalIslandWidget, washerWomanWidget]

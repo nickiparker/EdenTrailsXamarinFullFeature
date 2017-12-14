@@ -201,12 +201,14 @@ var World = {
         });
         */
 
-        // RHYS SOUTH EAST ASIA PAINTING MARKER
+        // RHYS SOUTH EAST ASIA PAINTING MARKER - show Sam's frog....
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Asia_Marker", {
             drawables: {
-            cam: [videoFrog, treeFrogWidget]
+            cam: [treeFrogWidget]
             },
+        });
 
+        /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             videoFrog.resume();
@@ -219,7 +221,7 @@ var World = {
         onExitFieldOfVision: function onExitFieldOfVisionFn() {
         videoFrog.pause();
         }
-        });
+        });*/
 	},
 
 	worldLoaded: function worldLoadedFn() {
