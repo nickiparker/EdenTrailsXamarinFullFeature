@@ -64,7 +64,7 @@ var World = {
         });
         */
 
-        /* Create Dancing Frog Video drawable
+        /* Create Dancing Frog Video drawable - TEST FILE...
         var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_Jeepers_Creepers.mp4", 0.5, {
                 translate: {
                 x: 0.2,
@@ -74,8 +74,8 @@ var World = {
         */
 
         // Show video of Rhys grandfather....
-        // The team have requested that I show a video of Rhys's grandfather as an AR asset instead of the Eden Project videos...
-        var rhysVideo = new AR.VideoDrawable("assets/West_Africa_Video1.mp4", 0.5, {
+        // The team have requested that I show a video of Rhys grandfather as an AR asset instead of the Eden Project videos...
+        var rhysVideo = new AR.VideoDrawable("assets/Rhys_Forester_Video.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
@@ -296,7 +296,7 @@ var World = {
         });
 
 
-        // West Africa InCorrect Answer
+        /* West Africa InCorrect Answer
         var page3 = new AR.ImageTrackable(this.tracker, "Chocolate_Marker2", {
             drawables: {
             cam: [videoFrog, incorrectAnswerWidget]
@@ -314,7 +314,7 @@ var World = {
         onExitFieldOfVision: function onExitFieldOfVisionFn() {
         videoFrog.pause();
         }
-        });
+        });*/
     },
 
     worldLoaded: function worldLoadedFn() {
@@ -323,7 +323,7 @@ var World = {
         var cssDivChocolate = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 48px'";
         document.getElementById('loadingMessage').innerHTML =
             "<div" + cssDivInstructions + ">Try and find this marker</div>" +
-            "<div" + cssDivWestAfrica + "><img src='assets/Rhys_Marker_Africa_200_200.png'></img></div>";
+            "<div" + cssDivWestAfrica + "><img src='assets/Rhys_Africa_Marker_200_200.png'></img></div>";
         // Remove Scan target message after 60 sec.
         setTimeout(function() {
             var e = document.getElementById('loadingMessage');
