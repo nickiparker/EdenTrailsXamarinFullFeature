@@ -13,10 +13,12 @@ var World = {
             Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
         */
 
-        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarkers.wtc", {
+        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker_v2.wtc", {
             onLoaded: this.worldLoaded
         });
 
+
+        // N.B. Marker names are "Rhys_Islands_Marker" , "Rhys_Africa_Marker" and "Rhys_Asia_Marker" 
         /*
             The next step is to create the augmentation. In this example an image resource is created and passed to the AR.ImageDrawable. A drawable is a visual component that can be connected to an IR target (AR.Trackable2DObject) or a geolocated object (AR.GeoObject). The AR.ImageDrawable is initialized by the image and its size. Optional parameters allow for position it relative to the recognized target.
         */
@@ -74,7 +76,6 @@ var World = {
         */
 
         // Show video of Rhys grandfather....
-        // The team have requested that I show a video of Rhys grandfather as an AR asset instead of the Eden Project videos...
         var rhysVideo = new AR.VideoDrawable("assets/Rhys_Forester_Video.mp4", 0.5, {
                 translate: {
                 x: 0.2,
@@ -274,13 +275,24 @@ var World = {
         //document.location = "architectsdk://button?action=west_africa_ok";
         });*/
 
+        /*
+        var page1Button = this.createWwwButton("https://fairtrade.org.uk", 0.15, {
+            translate: {
+                x: -0.25,
+                y: -0.25
+            },
+            zOrder: 1
+        }); */
+
 
         // West Africa Intro ...... show Rhys grandfather video.... and west africa widget ....
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Africa_Marker", {
             drawables: {
-            cam: [rhysVideo, westAfricaWidget]
+            cam: [westAfricaWidget]
             },
+        });
 
+        /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             rhysVideo.resume();
@@ -293,7 +305,7 @@ var World = {
         onExitFieldOfVision: function onExitFieldOfVisionFn() {
         rhysVideo.pause();
         }
-        });
+        }); */
 
 
         /* West Africa InCorrect Answer
