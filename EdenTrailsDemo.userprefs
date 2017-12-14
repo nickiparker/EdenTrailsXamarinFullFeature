@@ -2,9 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.XamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.25b8cde7779eb4f969c6d20deb6d68e9dcace822" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="J8PTURNDYA" TeamId="355A7GLPM3" />
   </MonoDevelop.Ide.ItemProperties.XamarinExample.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ExampleArchitectViewDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js">
     <Files>
       <File FileName="iOS/ExampleArchitectViewDelegate.cs" Line="15" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
