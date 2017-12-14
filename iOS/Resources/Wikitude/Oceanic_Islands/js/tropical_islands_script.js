@@ -12,12 +12,9 @@ var World = {
 			Important: If you replace the tracker file with your own, make sure to change the target name accordingly.
 			Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
 		*/
-        
-		//this.tracker = new AR.ClientTracker("assets/magazine.wtc", {
-		//	onLoaded: this.worldLoaded
-		//});
+      
 
-        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker.wtc", {
+        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarkers.wtc", {
             onLoaded: this.worldLoaded
         });
 
@@ -239,10 +236,11 @@ var World = {
         }
         });
 
-        // Correct Answer ( Bamboo )
-        var pageOne = new AR.ImageTrackable(this.tracker, "bamboo_correct_answer", {
+
+        // INITIAL MARKER SHOWN WHEN ENTERING SITE.
+        var pageOne = new AR.ImageTrackable(this.tracker, "Rhys_Asia_Marker", {
             drawables: {
-            cam: [tropicalIslandWidget, washerWomanWidget, correctAnswerWidget]
+            cam: [tropicalIslandWidget, washerWomanWidget]
             },
         });
 
@@ -287,13 +285,10 @@ var World = {
 
 	worldLoaded: function worldLoadedFn() {
 		var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
-        var cssDivJadeVine = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 98px'";
-        var cssDivBananas = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 48px'";
-        var cssDivLilypads = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
+        var cssDivIslands = " style='display: table-cell;vertical-align: middle; text-align: left; padding-right: 15px; width: 53px'";
         document.getElementById('loadingMessage').innerHTML =
-            "<div" + cssDivInstructions + ">Which tree or plant can be described as 'stronger than some types of steel' and often used for building houses in tropical rainforests?:</div>" +
-            "<div" + cssDivJadeVine + "><img src='assets/bamboo_correct_answer.png'></img></div>" +
-            "<div" + cssDivBananas + "><img src='assets/seychelles_Stilt_Palm_wrong_answer.png'></img></div>";           
+            "<div" + cssDivInstructions + ">Search for this marker:</div>" +           
+            "<div" + cssDivIslands + "><img src='assets/Rhys_Marker_Islands_200_200.png'></img></div>";           
 		// Remove Scan target message after 60 sec.
 		setTimeout(function() {
 			var e = document.getElementById('loadingMessage');
