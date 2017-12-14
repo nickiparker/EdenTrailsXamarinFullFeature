@@ -266,7 +266,6 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\WestAfricaMarkerPNG.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\correct_answer_widget.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\incorrect_answer_widget.html" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\EdenTrailsMarker.wtc" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Dancing_Frog_Jeepers_Creepers.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\bamboo_correct_answer.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Bananas.mp4" />
@@ -314,6 +313,8 @@
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\EdenTrailsMarkers.wtc" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Rhys_Asia_Marker_200_200.jpg" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Rhys_Marker_Islands_200_200.jpg" />
+    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\EdenTrailsMarkers.wtc" />
+    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\EdenTrailsMarkers.wtc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />
