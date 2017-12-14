@@ -18,7 +18,7 @@ var World = {
 		//	onLoaded: this.worldLoaded
 		//});
 
-        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarkers_v2.wtc", {
+        this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker_v2.wtc", {
             onLoaded: this.worldLoaded
         });
 
