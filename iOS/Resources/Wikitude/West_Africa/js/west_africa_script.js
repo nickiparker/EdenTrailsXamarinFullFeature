@@ -12,10 +12,6 @@ var World = {
             Important: If you replace the tracker file with your own, make sure to change the target name accordingly.
             Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
         */
-        
-        //this.tracker = new AR.ClientTracker("assets/magazine.wtc", {
-        //    onLoaded: this.worldLoaded
-        //});
 
         this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker.wtc", {
             onLoaded: this.worldLoaded
@@ -70,6 +66,16 @@ var World = {
 
         // Create Dancing Frog Video drawable
         var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_Jeepers_Creepers.mp4", 0.5, {
+                translate: {
+                x: 0.2,
+                y: 0.2
+            }
+        });
+
+
+        // Show video of Rhys's grandfather....
+        The team have requested that I show a video of Rhys's grandfather as an AR asset instead of the Eden Project videos...
+        var rhysVideo = new AR.VideoDrawable("assets/West_Africa_Video1.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
@@ -268,7 +274,7 @@ var World = {
         });*/
 
 
-        // West Africa Intro ...... Rhys dad video....
+        // West Africa Intro ...... Rhys grandfather video....
         var page1 = new AR.ImageTrackable(this.tracker, "WestAfricaMarker", {
             drawables: {
             cam: [rhysVideo, westAfricaWidget]
