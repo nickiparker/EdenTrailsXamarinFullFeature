@@ -307,6 +307,8 @@
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\WestAfrica_GIF.gif" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\rhys_grandfather_text.html" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Grandfather_v3.mp4" />
+    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Sams_Frog_Widget.html" />
+    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\tree-frog-rhythm-3.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

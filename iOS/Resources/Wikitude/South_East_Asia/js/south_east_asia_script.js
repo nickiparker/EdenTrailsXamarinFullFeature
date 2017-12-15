@@ -75,7 +75,7 @@ var World = {
             }
         });*/
 
-        // Tree Frog Widget
+        // Tree Frog Info Widget
         var treeFrogWidget = new AR.HtmlDrawable({
             uri: "assets/tree_frog_text.html"
         }, 1, {
@@ -88,6 +88,27 @@ var World = {
             },
             horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
             verticalAnchor: AR.CONST.VERTICAL_ANCHOR.BOTTOM,
+            clickThroughEnabled: true,
+            allowDocumentLocationChanges: false,
+            onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
+                AR.context.openInBrowser(uri);
+            }
+        });
+
+
+        // Sam Tree Frog Widget
+        var samsFrogWidget = new AR.HtmlDrawable({
+            uri: "assets/Sams_Frog_Widget.html"
+        }, 1, {
+            viewportWidth: 690,
+            viewportHeight: 400,
+            backgroundColor: "#00000000",
+            translate: {
+                x:0.36,
+                y: 0.5
+            },
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
+            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.TOP,
             clickThroughEnabled: true,
             allowDocumentLocationChanges: false,
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
@@ -202,7 +223,7 @@ var World = {
         // RHYS SOUTH EAST ASIA PAINTING MARKER - show Sam's frog....
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Asia_Marker", {
             drawables: {
-            cam: [overlayOne, treeFrogWidget]
+            cam: [overlayOne, treeFrogWidget, samsFrogWidget]
             },
         });
 
