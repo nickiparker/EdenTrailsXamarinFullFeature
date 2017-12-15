@@ -39,7 +39,7 @@ var World = {
 			offsetY: 1.00
 		});
 
-        var pageOneButton = this.createWwwButton1("https://mapmycrush.com/EdenTrails/Islands/congratulations.png", 0.5, {
+        var pageOneButton = this.createWwwButton1("https://mapmycrush.com/EdenTrails/Asia/congratulations.png", 0.5, {
             translate: {
                 x: 1.25,
                 y: 0.25
@@ -47,18 +47,8 @@ var World = {
             zOrder:1
         });
 
-        /*
-        var imgTwo = new AR.ImageResource("assets/imageTwo.png");
-        var overlayTwo = new AR.ImageDrawable(imgTwo, 0.5, {
-            translate: {
-                x: 0.12,
-                y: -0.01
-            }
-        });
 
-        */
-
-        var pageTwoButton = this.createWwwButton2("https://mapmycrush.com/EdenTrails/Islands/error.png", 0.5, {
+        var pageTwoButton = this.createWwwButton2("https://mapmycrush.com/EdenTrails/Asia/error.png", 0.5, {
             translate: {
                 x: 1.85,
                 y: 0.25
@@ -67,43 +57,6 @@ var World = {
         });
 
 
-
-        /*
-        var pageOne = new AR.ImageTrackable(this.tracker, "", {
-            drawables: 
-            {
-                cam: [overlayOne, pageOneButton]
-            }
-        });
-        */
-
-
-
-		// Please note that in this case the target name is a wildcard. Wildcards can be used to 
-        // respond to any target defined in the target collection. If you want to respond to a certain target 
-        // only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
-		/*
-		var pageOne = new AR.Trackable2DObject(this.tracker, "*", {
-			drawables: {
-				cam: overlayOne
-			}
-		}); */
-
-        /* Create JadeVine Video drawable (part of Tropical Islands)
-        var video = new AR.VideoDrawable("assets/JadeVine.mp4", 0.5, {
-                translate: {
-                x: 0.2,
-                y: 0.2
-            }
-        });
-
-        // Create Banana Video drawable (part of West Africa)
-        var video2 = new AR.VideoDrawable("assets/Bananas.mp4", 0.5, {
-                translate: {
-                x: 0.2,
-                y: 0.2
-            }
-        }); */
 
         /* Team decided not to show these educational videos from Eden Project ...
         // Create LilyPads ( South East Asia )Video drawable

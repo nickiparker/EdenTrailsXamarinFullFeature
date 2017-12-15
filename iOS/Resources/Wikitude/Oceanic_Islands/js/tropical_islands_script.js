@@ -22,12 +22,36 @@ var World = {
 			The next step is to create the augmentation. In this example an image resource is created and passed to the AR.ImageDrawable. A drawable is a visual component that can be connected to an IR target (AR.Trackable2DObject) or a geolocated object (AR.GeoObject). The AR.ImageDrawable is initialized by the image and its size. Optional parameters allow for position it relative to the recognized target.
 		*/
 
+        this.imgButton = new AR.ImageResource("assets/bamboo_correct_answer.png");
+        this.imgButton2 = new AR.ImageResource("assets/seychelles_Stilt_Palm_wrong_answer.png");
+
 		// Create the overlay for the Quiz...
 		var imgOne = new AR.ImageResource("assets/tropical-islands-quiz-question.png");
 		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
 			offsetX: -0.15,
 			offsetY: 0
 		});
+
+
+        var pageOneButton = this.createWwwButton1("https://mapmycrush.com/EdenTrails/Islands/congratulations.png", 0.5, {
+            translate: {
+                x: 1.25,
+                y: 0.25
+            },
+            zOrder:1
+        });
+
+
+        var pageTwoButton = this.createWwwButton2("https://mapmycrush.com/EdenTrails/Islands/error.png", 0.5, {
+            translate: {
+                x: 1.85,
+                y: 0.25
+            }//,
+            //zOrder:1
+        });
+
+
+
 
         /*
 		// Please note that in this case the target name is a wildcard. Wildcards can be used to 
@@ -240,7 +264,7 @@ var World = {
         // INITIAL MARKER SHOWN WHEN ENTERING SITE. show washer woman and tropical islands widget
         var pageOne = new AR.ImageTrackable(this.tracker, "Rhys_Islands_Marker", {
             drawables: {
-            cam: [overlayOne, tropicalIslandWidget, washerWomanWidget]
+            cam: [overlayOne, tropicalIslandWidget, washerWomanWidget, pageOneButton, pageTwoButton]
             },
         });
 
@@ -282,6 +306,21 @@ var World = {
         */
      
 	},
+
+    createWwwButton1: function createWwwButtonFn(url, size, options) {
+            options.onClick = function() {
+            AR.context.openInBrowser(url);
+        };
+        return new AR.ImageDrawable(this.imgButton, size, options);
+    },
+
+    createWwwButton2: function createWwwButtonFn(url, size, options) {
+            options.onClick = function() {
+            AR.context.openInBrowser(url);
+        };
+        return new AR.ImageDrawable(this.imgButton2, size, options);
+    },
+
 
 	worldLoaded: function worldLoadedFn() {
 		var cssDivInstructions = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
