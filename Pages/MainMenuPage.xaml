@@ -41,9 +41,7 @@
             <Button x:Name="L2_SouthEastAsia" Text="Level 2 - South East Asia" Style="{StaticResource ButtonStyle1}" Clicked="Asia_Handle_Clicked" BackgroundColor="RGB(0,171,151)" Grid.Row="3" Grid.Column="1"/>     
             <Button x:Name="L3_WestAfrica" Text="Level 3 - West Africa"
                 Style="{StaticResource ButtonStyle1}" Clicked="Africa_Handle_Clicked" BackgroundColor="RGB(0,168,184)" Grid.Row="4" Grid.Column="1"/>            
-            <Button x:Name="L4_PhotoComp" Text="Photo Competition" Style="{StaticResource ButtonStyle1}" Clicked="Photo_Handle_Clicked" BackgroundColor="RGB(22,142,206)" Grid.Column="1" Grid.Row="5"/>
-
-            <Button x:Name="L5_SolarSystem" Text="Solar System Demo" Style="{StaticResource ButtonStyle1}" Clicked="Solar_System_Handle_Clicked" BackgroundColor="RGB(22,142,206)" Grid.Column="1" Grid.Row="6"/>
+            <Button x:Name="L4_PhotoComp" Text="Photo Competition" Style="{StaticResource ButtonStyle1}" Clicked="Photo_Handle_Clicked" BackgroundColor="RGB(22,142,206)" Grid.Column="1" Grid.Row="5" IsEnabled="false"/>
 
                 
             </Grid>

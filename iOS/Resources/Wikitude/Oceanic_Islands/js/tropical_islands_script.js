@@ -140,9 +140,9 @@ var World = {
         // Tropical Island Widget
         var tropicalIslandWidget = new AR.HtmlDrawable({
             uri: "assets/tropical_island_text.html"
-        }, 1, {
-            viewportWidth: 690,
-            viewportHeight: 400,
+
+
+
             backgroundColor: "#00000000",
             translate: {
                 x: 0.76,
