@@ -11,11 +11,17 @@ var World = {
 
             Important: If you replace the tracker file with your own, make sure to change the target name accordingly.
             Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
+
+
         */
 
         this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker_v2.wtc", {
             onLoaded: this.worldLoaded
         });
+
+
+        this.imgButton = new AR.ImageResource("assets/bamboo_correct_answer.png");
+        this.imgButton2 = new AR.ImageResource("assets/cocoa-wrong-answer.png");
 
 
         // N.B. Marker names are "Rhys_Islands_Marker" , "Rhys_Africa_Marker" and "Rhys_Asia_Marker" 
@@ -29,6 +35,22 @@ var World = {
             offsetX: -0.15,
             offsetY: 0
         });
+
+        var pageOneButton = this.createWwwButton1("https://mapmycrush.com/EdenTrails/Africa/congratulations.png", 0.5, {
+            translate: {
+                x: 1.25,
+                y: 0.25
+            },
+            zOrder:1
+        });
+
+
+        var pageTwoButton = this.createWwwButton2("https://mapmycrush.com/EdenTrails/Africa/error.png", 0.5, {
+            translate: {
+                x: 1.85,
+                y: 0.25
+            }//,
+            //zOrder:
 
         /*
         // Please note that in this case the target name is a wildcard. Wildcards can be used to 
@@ -308,7 +330,7 @@ var World = {
         // West Africa Intro ...... show Rhys grandfather video.... and west africa widget .... and quiz question ...
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Africa_Marker", {
             drawables: {
-            cam: [rhysGrandfatherWidget, overlayOne, westAfricaWidget]
+            cam: [rhysGrandfatherWidget, overlayOne, westAfricaWidget, pageOneButton, pageTwoButton]
 
             },
         });
@@ -348,6 +370,20 @@ var World = {
         videoFrog.pause();
         }
         });*/
+    },
+
+    createWwwButton1: function createWwwButtonFn(url, size, options) {
+            options.onClick = function() {
+            AR.context.openInBrowser(url);
+        };
+        return new AR.ImageDrawable(this.imgButton, size, options);
+    },
+
+    createWwwButton2: function createWwwButtonFn(url, size, options) {
+            options.onClick = function() {
+            AR.context.openInBrowser(url);
+        };
+        return new AR.ImageDrawable(this.imgButton2, size, options);
     },
 
     worldLoaded: function worldLoadedFn() {

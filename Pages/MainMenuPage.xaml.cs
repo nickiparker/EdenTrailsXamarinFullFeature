@@ -73,20 +73,7 @@ namespace XamarinExample
             await Navigation.PushAsync(africaPage);
         }
 
-        async void Photo_Handle_Clicked(object sender, System.EventArgs e)
-        {
-            // Only display this page if all the answers have been answered correctly..
-            // we cant afford to give a holiday in Malaysia to everyone....
-            ARPage arPage = new ARPage("Photo_Competition");
-            await Navigation.PushAsync(arPage);
-        }
+       
 
-        async void Solar_System_Handle_Clicked(object sender, System.EventArgs e)
-        {
-            // Only display this page if all the answers have been answered correctly..
-            // we cant afford to give a holiday in Malaysia to everyone....
-            ARPage threeDPage = new ARPage("Solar_System_Demo");
-            await Navigation.PushAsync(threeDPage);
-        }
     }
 }
