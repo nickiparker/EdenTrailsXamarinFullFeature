@@ -26,18 +26,18 @@ var World = {
 			The next step is to create the augmentation. In this example an image resource is created and passed to the AR.ImageDrawable. A drawable is a visual component that can be connected to an IR target (AR.Trackable2DObject) or a geolocated object (AR.GeoObject). The AR.ImageDrawable is initialized by the image and its size. Optional parameters allow for position it relative to the recognized target.
 		*/
 
-		/* Create overlay for page one
-		var imgOne = new AR.ImageResource("assets/imageOne.png");
+		// Create overlay for ASIA quiz question
+		var imgOne = new AR.ImageResource("assets/southeast-asia-quiz-question.png");
 		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
 			offsetX: -0.15,
 			offsetY: 0
 		});
-
+       
 
 		// Please note that in this case the target name is a wildcard. Wildcards can be used to 
         // respond to any target defined in the target collection. If you want to respond to a certain target 
         // only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
-		
+		/*
 		var pageOne = new AR.Trackable2DObject(this.tracker, "*", {
 			drawables: {
 				cam: overlayOne
@@ -70,13 +70,13 @@ var World = {
         });
         */
 
-        // Create Dancing Frog Video drawable
+        /* Create Dancing Frog Video drawable
         var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_music.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
             }
-        });
+        });*/
 
         // Tree Frog Widget
         var treeFrogWidget = new AR.HtmlDrawable({
@@ -205,7 +205,7 @@ var World = {
         // RHYS SOUTH EAST ASIA PAINTING MARKER - show Sam's frog....
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Asia_Marker", {
             drawables: {
-            cam: [treeFrogWidget]
+            cam: [overlayOne, treeFrogWidget]
             },
         });
 
