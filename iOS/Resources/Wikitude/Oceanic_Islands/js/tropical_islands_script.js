@@ -28,8 +28,8 @@ var World = {
 		// Create the overlay for the Quiz...
 		var imgOne = new AR.ImageResource("assets/tropical-islands-quiz-question.png");
 		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
-			offsetX: -0.15,
-			offsetY: 0
+			offsetX: 1.55, //-0.15,
+			offsetY: 1.0
 		});
 
 
@@ -145,7 +145,7 @@ var World = {
             viewportHeight: 400,
             backgroundColor: "#00000000",
             translate: {
-                x:0.36,
+                x: 0.76,
                 y: 0.5
             },
             horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
@@ -165,7 +165,7 @@ var World = {
             viewportHeight: 400,
             backgroundColor: "#00000000",
             translate: {
-                x:0.36,
+                x: -0.2,
                 y: 0.5
             },
             horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.LEFT,
