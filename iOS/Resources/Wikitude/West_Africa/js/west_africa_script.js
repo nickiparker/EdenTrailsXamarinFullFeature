@@ -76,7 +76,7 @@ var World = {
         */
 
         // Show video of Rhys grandfather....
-        var rhysVideo = new AR.VideoDrawable("assets/Rhys_Forester_Video.mp4", 0.5, {
+        var rhysVideo = new AR.VideoDrawable("assets/WeSt_Africa_2_0.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
@@ -288,11 +288,9 @@ var World = {
         // West Africa Intro ...... show Rhys grandfather video.... and west africa widget ....
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Africa_Marker", {
             drawables: {
-            cam: [westAfricaWidget]
-            },
-        });
+            cam: [rhysVideo, westAfricaWidget]
+        },
 
-        /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             rhysVideo.resume();
@@ -305,7 +303,7 @@ var World = {
         onExitFieldOfVision: function onExitFieldOfVisionFn() {
         rhysVideo.pause();
         }
-        }); */
+        });
 
 
         /* West Africa InCorrect Answer

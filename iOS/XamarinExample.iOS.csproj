@@ -166,9 +166,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\Wikitude\ade.js" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\index.html" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\imageOne.png" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\magazine.wtc" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\surfer.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\css\default.css" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\js\tropical_islands_script.js" />
     <BundleResource Include="Resources\Wikitude\Photo_Competition\index.html" />
@@ -255,23 +252,16 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\generic-quiz-not-right.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tropical-islands-quiz-question.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tropical-islands-quiz-congratulations.png" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\JadeVine.mp4" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Bananas.mp4" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Lilypads.mp4" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Palm_Oil_Marker_PNG_100_100.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Sams_Frog_Widget.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tree_frog_text.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tree-frog-rythm-3.gif" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tree-frog-text.gif" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tropical_island_text.html" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Tropical_Islands_Seychelles_98_50.png" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Tropical_Islands_Seychelles.jpg" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\tropical-island-text.gif" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\weather.html" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\West Africa.jpg" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\west_africa_text.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\west-africa-text.gif" />
-    <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\WestAfricaMarkerPNG.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\correct_answer_widget.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\incorrect_answer_widget.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Dancing_Frog_Jeepers_Creepers.mp4" />
@@ -322,6 +312,8 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\EdenTrailsMarker_v2.wtc" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\EdenTrailsMarker_v2.wtc" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\EdenTrailsMarker_v2.wtc" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Dad.mp4" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\WeSt_Africa_2_0.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

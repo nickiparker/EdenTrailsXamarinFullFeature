@@ -65,7 +65,7 @@ var World = {
             }
         });*/
 
-         // Create Dancing Frog Video drawable
+        // Create Dancing Frog Video drawable (TEST VIDEO THAT WORKS)
         var videoFrog = new AR.VideoDrawable("assets/Dancing_Frog_Jeepers_Creepers.mp4", 0.5, {
                 translate: {
                 x: 0.2,
@@ -73,7 +73,7 @@ var World = {
             }
         });
 
-        // Tree Frog Widget
+        /* Tree Frog Widget
         var treeFrogWidget = new AR.HtmlDrawable({
             uri: "assets/tree_frog_text.html"
         }, 1, {
@@ -91,9 +91,9 @@ var World = {
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
                 AR.context.openInBrowser(uri);
             }
-        });
+        }); */
 
-        // West Africa Widget
+        /* West Africa Widget
         var westAfricaWidget = new AR.HtmlDrawable({
             uri: "assets/west_africa_text.html"
         }, 1, {
@@ -111,7 +111,7 @@ var World = {
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
                 AR.context.openInBrowser(uri);
             }
-        });
+        }); */
 
         // Tropical Island Widget
         var tropicalIslandWidget = new AR.HtmlDrawable({
@@ -144,8 +144,8 @@ var World = {
                 x:0.36,
                 y: 0.5
             },
-            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
-            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.BOTTOM,
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.LEFT,
+            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.TOP,
             clickThroughEnabled: true,
             allowDocumentLocationChanges: false,
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
@@ -153,7 +153,7 @@ var World = {
             }
         });
 
-        // Weather Widget
+        /* Weather Widget
         var weatherWidget = new AR.HtmlDrawable({
             uri: "assets/weather.html"
                 }, 0.25, {
@@ -171,11 +171,11 @@ var World = {
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
             AR.context.openInBrowser(uri);
         }
-        });
+        }); */
 
 
 
-         // Correct Answer Widget
+         /* Correct Answer Widget
         var correctAnswerWidget = new AR.HtmlDrawable({
             uri: "assets/correct_answer_widget.html"
                 }, 0.25, {
@@ -193,9 +193,9 @@ var World = {
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
             AR.context.openInBrowser(uri);
         }
-        });
+        }); */
 
-         // Incorrect Answer Widget
+         /* Incorrect Answer Widget
         var incorrectAnswerWidget = new AR.HtmlDrawable({
             uri: "assets/incorrect_answer_widget.html"
                 }, 0.25, {
@@ -213,10 +213,10 @@ var World = {
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
             AR.context.openInBrowser(uri);
         }
-        });
+        }); */
 
 
-         // Sams Tree Frog Widget
+         /* Sams Tree Frog Widget
         var samsWidget = new AR.HtmlDrawable({
             uri: "assets/Sams_Frog_Widget.html"
             }, 2, {
@@ -235,7 +235,7 @@ var World = {
             AR.context.openInBrowser(uri);
         }
         });
-
+        */
 
         // INITIAL MARKER SHOWN WHEN ENTERING SITE. show washer woman and tropical islands widget
         var pageOne = new AR.ImageTrackable(this.tracker, "Rhys_Islands_Marker", {
@@ -260,7 +260,7 @@ var World = {
         });
         */
 
-        // Wrong answer ( Stilt Palm )
+        /* Wrong answer ( Stilt Palm )
         var page2 = new AR.ImageTrackable(this.tracker, "Stilt_Palm_wrong_answer", {
             drawables: {
             cam: [videoFrog, incorrectAnswerWidget]
@@ -279,7 +279,7 @@ var World = {
         videoFrog.pause();
         }
         });
-
+        */
      
 	},
 
