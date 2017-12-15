@@ -100,14 +100,14 @@ var World = {
         var samsFrogWidget = new AR.HtmlDrawable({
             uri: "assets/Sams_Frog_Widget.html"
         }, 1, {
-            viewportWidth: 690,
-            viewportHeight: 400,
+            viewportWidth: 800,
+            viewportHeight: 800,
             backgroundColor: "#00000000",
             translate: {
-                x:0.36,
-                y: 0.5
+                x: 0.2,
+                y: 1.5
             },
-            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.RIGHT,
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.LEFT,
             verticalAnchor: AR.CONST.VERTICAL_ANCHOR.TOP,
             clickThroughEnabled: true,
             allowDocumentLocationChanges: false,
