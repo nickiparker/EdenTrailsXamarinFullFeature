@@ -13,10 +13,7 @@ var World = {
 			Use a specific target name to respond only 
             to a certain target or use a wildcard to respond to any or a certain group of targets.
 		*/
-        
-		//this.tracker = new AR.ClientTracker("assets/magazine.wtc", {
-		//	onLoaded: this.worldLoaded
-		//});
+    
 
         this.tracker = new AR.ClientTracker("assets/EdenTrailsMarker_v2.wtc", {
             onLoaded: this.worldLoaded

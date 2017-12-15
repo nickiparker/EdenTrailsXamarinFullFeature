@@ -23,14 +23,14 @@ var World = {
             The next step is to create the augmentation. In this example an image resource is created and passed to the AR.ImageDrawable. A drawable is a visual component that can be connected to an IR target (AR.Trackable2DObject) or a geolocated object (AR.GeoObject). The AR.ImageDrawable is initialized by the image and its size. Optional parameters allow for position it relative to the recognized target.
         */
 
-        /* Create overlay for page one
-        var imgOne = new AR.ImageResource("assets/imageOne.png");
+        //West Africa Quiz question overlay for page one
+        var imgOne = new AR.ImageResource("assets/west-africa-quiz-question.png");
         var overlayOne = new AR.ImageDrawable(imgOne, 1, {
             offsetX: -0.15,
             offsetY: 0
         });
 
-
+        /*
         // Please note that in this case the target name is a wildcard. Wildcards can be used to 
         // respond to any target defined in the target collection. If you want to respond to a certain target 
         // only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
@@ -76,14 +76,14 @@ var World = {
         */
 
         // Show video of Rhys grandfather....
-        var rhysVideo = new AR.VideoDrawable("assets/WeSt_Africa_2_0.mp4", 0.5, {
+        var rhysVideo = new AR.VideoDrawable("assets/Rhys_Grandfather_v3.mp4", 0.5, {
                 translate: {
                 x: 0.2,
                 y: 0.2
             }
         });
 
-        // Tree Frog Widget
+        /* West Africa Quiz 
         var treeFrogWidget = new AR.HtmlDrawable({
             uri: "assets/tree_frog_text.html"
         }, 1, {
@@ -101,9 +101,9 @@ var World = {
             onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
                 AR.context.openInBrowser(uri);
             }
-        });
+        }); */
 
-        // West Africa Widget
+        // West Africa info Widget
         var westAfricaWidget = new AR.HtmlDrawable({
             uri: "assets/west_africa_text.html"
         }, 1, {
@@ -123,6 +123,26 @@ var World = {
             }
         });
        
+        // Rhys Grandfather Widget
+        var rhysGrandfatherWidget = new AR.HtmlDrawable({
+            uri: "assets/rhys_grandfather_text.html"
+        }, 1, {
+            viewportWidth: 690,
+            viewportHeight: 400,
+            backgroundColor: "#00000000",
+            translate: {
+                x:0.36,
+                y: 0.5
+            },
+            horizontalAnchor: AR.CONST.HORIZONTAL_ANCHOR.LEFT,
+            verticalAnchor: AR.CONST.VERTICAL_ANCHOR.TOP,
+            clickThroughEnabled: true,
+            allowDocumentLocationChanges: false,
+            onDocumentLocationChanged: function onDocumentLocationChangedFn(uri) {
+                AR.context.openInBrowser(uri);
+            }
+
+        });
 
         /* Tropical Island Widget
         var tropicalIslandWidget = new AR.HtmlDrawable({
@@ -285,12 +305,15 @@ var World = {
         }); */
 
 
-        // West Africa Intro ...... show Rhys grandfather video.... and west africa widget ....
+        // West Africa Intro ...... show Rhys grandfather video.... and west africa widget .... and quiz question ...
         var page1 = new AR.ImageTrackable(this.tracker, "Rhys_Africa_Marker", {
             drawables: {
-            cam: [rhysVideo, westAfricaWidget]
-        },
+            cam: [rhysGrandfatherWidget, overlayOne, westAfricaWidget]
 
+            },
+        });
+
+        /*
         onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
         if (this.hasVideoStarted) {
             rhysVideo.resume();
@@ -303,7 +326,7 @@ var World = {
         onExitFieldOfVision: function onExitFieldOfVisionFn() {
         rhysVideo.pause();
         }
-        });
+        });*/
 
 
         /* West Africa InCorrect Answer

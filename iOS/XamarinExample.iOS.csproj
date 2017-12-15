@@ -232,19 +232,14 @@
     <BundleResource Include="Resources\xamarin.png" />
     <BundleResource Include="Resources\edenprojectlogo.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\imageOne.png" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\magazine.wtc" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\surfer.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\css\default.css" />
     <BundleResource Include="Resources\Wikitude\West_Africa\index.html" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\imageOne.png" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\magazine.wtc" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\surfer.png" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\css\default.css" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\index.html" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\js\south_east_asia_script.js" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\tree_frog_text.html" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\tree-frog-text.gif" />
-    <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Hk13f4M1z.wtc" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Dancing_Frog_music.mp4" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Tropical_Islands_Seychelles_98_50.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\bamboo_correct_answer.png" />
@@ -266,13 +261,10 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\incorrect_answer_widget.html" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Dancing_Frog_Jeepers_Creepers.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\bamboo_correct_answer.png" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Bananas.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\correct_answer_widget.html" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Dancing_Frog_Jeepers_Creepers.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\generic-quiz-not-right.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\incorrect_answer_widget.html" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\JadeVine.mp4" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Lilypads.mp4" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Palm_Oil_Marker_PNG_100_100.png" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\Sams_Frog_Widget.html" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\seychelles_Stilt_Palm_wrong_answer.png" />
@@ -304,7 +296,6 @@
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\southeast-asia-quiz-question.png" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\RhysMarker_ASIA.jpg" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Rhys_Marker_Islands.jpg" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Forester_Video.mp4" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Rhys_Asia_Marker_200_200.jpg" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\Rhys_Asia_Marker_200_200.png" />
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\Rhys_Marker_Islands_200_200.png" />
@@ -312,8 +303,10 @@
     <BundleResource Include="Resources\Wikitude\Oceanic_Islands\assets\EdenTrailsMarker_v2.wtc" />
     <BundleResource Include="Resources\Wikitude\South_East_Asia\assets\EdenTrailsMarker_v2.wtc" />
     <BundleResource Include="Resources\Wikitude\West_Africa\assets\EdenTrailsMarker_v2.wtc" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Dad.mp4" />
-    <BundleResource Include="Resources\Wikitude\West_Africa\assets\WeSt_Africa_2_0.mp4" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_West_Africa_h264.mp4" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\WestAfrica_GIF.gif" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\rhys_grandfather_text.html" />
+    <BundleResource Include="Resources\Wikitude\West_Africa\assets\Rhys_Grandfather_v3.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

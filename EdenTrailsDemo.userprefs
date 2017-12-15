@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.ItemProperties.XamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.25b8cde7779eb4f969c6d20deb6d68e9dcace822" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="J8PTURNDYA" TeamId="355A7GLPM3" />
   </MonoDevelop.Ide.ItemProperties.XamarinExample.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Resources/Wikitude/South_East_Asia/js/south_east_asia_script.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Resources/Wikitude/West_Africa/assets/rhys_grandfather_text.html">
     <Files>
       <File FileName="iOS/ExampleArchitectViewDelegate.cs" Line="15" Column="1" />
       <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/js/tropical_islands_script.js" Line="243" Column="31" />
       <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/assets/tropical_island_text.html" Line="11" Column="1" />
-      <File FileName="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js" Line="77" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/js/west_africa_script.js" Line="135" Column="23" />
       <File FileName="iOS/Resources/Wikitude/West_Africa/assets/west_africa_text.html" Line="1" Column="1" />
-      <File FileName="iOS/Resources/Wikitude/South_East_Asia/js/south_east_asia_script.js" Line="21" Column="69" />
+      <File FileName="iOS/Resources/Wikitude/South_East_Asia/js/south_east_asia_script.js" Line="30" Column="14" />
       <File FileName="iOS/Info.plist" />
       <File FileName="iOS/ARPageRenderer.cs" Line="8" Column="49" />
       <File FileName="Pages/MainMenuPage.xaml" Line="55" Column="1" />
@@ -20,6 +20,7 @@
       <File FileName="iOS/Resources/Wikitude/Photo_Competition/js/radar.js" Line="1" Column="1" />
       <File FileName="iOS/Resources/Wikitude/Oceanic_Islands/assets/washer_woman_video.html" Line="1" Column="1" />
       <File FileName="iOS/Resources/Wikitude/South_East_Asia/assets/tree_frog_text.html" Line="1" Column="1" />
+      <File FileName="iOS/Resources/Wikitude/West_Africa/assets/rhys_grandfather_text.html" Line="7" Column="172" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
