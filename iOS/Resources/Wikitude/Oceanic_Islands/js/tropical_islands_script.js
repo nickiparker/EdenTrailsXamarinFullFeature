@@ -22,14 +22,14 @@ var World = {
 			The next step is to create the augmentation. In this example an image resource is created and passed to the AR.ImageDrawable. A drawable is a visual component that can be connected to an IR target (AR.Trackable2DObject) or a geolocated object (AR.GeoObject). The AR.ImageDrawable is initialized by the image and its size. Optional parameters allow for position it relative to the recognized target.
 		*/
 
-		/* Create overlay for page one
-		var imgOne = new AR.ImageResource("assets/imageOne.png");
+		// Create the overlay for the Quiz...
+		var imgOne = new AR.ImageResource("assets/tropical-islands-quiz-question.png");
 		var overlayOne = new AR.ImageDrawable(imgOne, 1, {
 			offsetX: -0.15,
 			offsetY: 0
 		});
 
-
+        /*
 		// Please note that in this case the target name is a wildcard. Wildcards can be used to 
         // respond to any target defined in the target collection. If you want to respond to a certain target 
         // only for a particular AR.Trackable2DObject simply provide the target name as specified in the target collection.
@@ -240,7 +240,7 @@ var World = {
         // INITIAL MARKER SHOWN WHEN ENTERING SITE. show washer woman and tropical islands widget
         var pageOne = new AR.ImageTrackable(this.tracker, "Rhys_Islands_Marker", {
             drawables: {
-            cam: [tropicalIslandWidget, washerWomanWidget]
+            cam: [overlayOne, tropicalIslandWidget, washerWomanWidget]
             },
         });
 
